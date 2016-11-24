@@ -1,4 +1,5 @@
 # Chrome Driver Standalone
+![Build status](https://travis-ci.org/abachar/chrome-driver-standalone.svg)
 
 > Inspired by [selenium-server-standalone-jar](https://github.com/adamhooper/selenium-server-standalone-jar)
 
