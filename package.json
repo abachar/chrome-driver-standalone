@@ -1,0 +1,29 @@
+{
+  "name": "chrome-driver-standalone",
+  "version": "2.25.0",
+  "description": "ChromeDriver binaries, so you don't need to include it in your repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abachar/chrome-driver-standalone.git"
+  },
+  "keywords": [
+    "selenium",
+    "standalone",
+    "chrome",
+    "dirver"
+  ],
+  "author": "Abdelhakim Bachar <a.bachar@hotmail.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abachar/chrome-driver-standalone/issues"
+  },
+  "homepage": "https://github.com/abachar/chrome-driver-standalone",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
