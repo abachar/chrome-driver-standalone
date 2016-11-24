@@ -1,5 +1,6 @@
 # Chrome Driver Standalone
-![Build status](https://travis-ci.org/abachar/chrome-driver-standalone.svg)
+[![Build status](https://travis-ci.org/abachar/chrome-driver-standalone.svg)](https://travis-ci.org/abachar/chrome-driver-standalone)
+[![npm](https://img.shields.io/npm/dt/chrome-driver-standalone.svg)](https://www.npmjs.com/package/chrome-driver-standalone)
 
 > Inspired by [selenium-server-standalone-jar](https://github.com/adamhooper/selenium-server-standalone-jar)
 
