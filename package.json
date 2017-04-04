@@ -1,6 +1,6 @@
 {
   "name": "chrome-driver-standalone",
-  "version": "2.27.0",
+  "version": "2.28.0",
   "description": "ChromeDriver binaries, so you don't need to include it in your repository",
   "main": "index.js",
   "scripts": {
