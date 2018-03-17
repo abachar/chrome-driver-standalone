@@ -43,11 +43,6 @@ describe('chrome-driver-standalone', function() {
       Object.defineProperty(process, 'arch', original_arch);
     });
 
-    it('should use linux x32 driver ', function() {
-      given_platfor('linux');
-      expect(driver.getDriverName()).to.equal('chromedriver_linux32');
-    });
-
     it('should use linux x64 driver ', function() {
       given_platfor('linux', 'x64');
       expect(driver.getDriverName()).to.equal('chromedriver_linux64');
