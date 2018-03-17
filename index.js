@@ -4,8 +4,8 @@ var path = require('path');
 function getDriverName() {
   var platform = process.platform;
 
-  if (platform === 'linux') {
-      platform += (process.arch === 'x64') ? '64' : '32'
+  if (platform === 'linux' && process.arch === 'x64') {
+      platform = 'linux64'
   } else if ((platform === 'darwin') && (process.arch === 'x64')) {
       platform = 'mac64'
   } else if (platform === 'win32') {
