@@ -18,4 +18,4 @@ This is up to you. All you get is:
 
     var chromeDriver = require('chrome-driver-standalone');
     console.log(chromeDriver.path);    // path to the embeded chrome driver binary
-    console.log(chromeDriver.version); // X.YY.0 except fo 2.35.1
+    console.log(chromeDriver.version); // X.YY.0 except for version 2.35.1
